@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/b"
+    android:foregroundTint="#F8CACA"
+
+    tools:context=".RegisterActivity">
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:layout_marginHorizontal="40dp"
+
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="111dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="76dp"
+        android:rotationX="1"
+        app:cardCornerRadius="25dp"
+        app:cardElevation="20dp"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.57"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.73">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="70dp"
+            android:layout_marginVertical="40dp"
+            android:ems="10"
+            android:text="    REGISTER"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textSize="30dp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:rotationX="-360">
+
+            <EditText
+                android:id="@+id/ed1"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginHorizontal="57dp"
+                android:layout_marginVertical="100dp"
+                android:ems="10"
+                android:hint="StudentId eg(*usn*)"
+                android:inputType="textPassword" />
+
+
+            <EditText
+                android:id="@+id/ed2"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginHorizontal="56dp"
+                android:layout_marginVertical="185dp"
+                android:ems="10"
+                android:hint="Password"
+                android:inputType="textPassword" />
+
+            <Button
+                android:id="@+id/b1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="300dp"
+                android:layout_marginRight="130dp"
+                android:text="Register"
+                android:background="@color/button"
+                android:textColorLink="#171619"
+                tools:layout_editor_absoluteX="252dp"
+                tools:layout_editor_absoluteY="500dp" />
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

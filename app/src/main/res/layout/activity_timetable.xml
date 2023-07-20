@@ -1,0 +1,77 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/b"
+    android:layout_height="match_parent">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_marginTop="100dp"
+        app:cardCornerRadius="30dp"
+android:layout_marginBottom="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:elevation="26dp"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="50dp"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:text="TIME TABLE"
+                android:textSize="34sp"
+                android:textStyle="bold" />
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="200dp">
+
+                <TableLayout
+                    android:id="@+id/tableLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:stretchColumns="*" />
+
+            </HorizontalScrollView>
+
+        </RelativeLayout>
+
+        <EditText
+            android:id="@+id/subjectEditText"
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+            android:layout_marginTop="540dp"
+            android:hint="Enter Subject" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/clearb"
+            android:background="@color/button"
+            android:layout_marginTop="489dp"
+            android:layout_below="@id/subjectEditText"
+            android:layout_alignParentLeft="true"
+            android:text="Clear Table"
+            />
+        <Button
+            android:id="@+id/addButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add Subject"
+            android:background="@color/button"
+            android:layout_marginTop="489dp"
+            android:layout_below="@id/subjectEditText"
+            android:layout_gravity="right" />
+
+    </androidx.cardview.widget.CardView>
+
+
+</RelativeLayout>

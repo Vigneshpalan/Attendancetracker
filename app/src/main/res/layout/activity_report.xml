@@ -1,0 +1,64 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/b"
+    android:padding="16dp">
+
+    <Spinner
+        android:id="@+id/subjectSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:background="@android:drawable/btn_dropdown"
+        android:padding="8dp"
+        android:spinnerMode="dropdown" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="369dp"
+        android:layout_height="560dp"
+        android:layout_marginTop="130dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        app:cardCornerRadius="30dp"
+        app:cardElevation="30dp"
+        app:cardBackgroundColor="@color/white">
+
+        <com.github.mikephil.charting.charts.BarChart
+            android:id="@+id/barChart"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_above="@+id/pieChart"
+            android:gravity="center" />
+
+        <com.github.mikephil.charting.charts.PieChart
+            android:id="@+id/pieChart"
+
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="330dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_below="@+id/barChart"
+            android:gravity="center" />
+
+        <TextView
+            android:id="@+id/attendanceEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+android:textColor="@color/black"
+            android:layout_below="@+id/pieChart"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginBottom="39dp" />
+
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>

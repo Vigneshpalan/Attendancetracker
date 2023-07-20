@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="colorPresent">#48DA3D</color>
+    <color name="colorAbsent">#F44336</color>
+    <color name="colorMedicalLeave">#BFE31F</color>
+    <color name="button">#FF05A4E3</color>
+</resources>
