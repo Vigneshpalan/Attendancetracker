@@ -30,18 +30,15 @@ To use Atracker, you can download and install the Android APK file provided in t
 
 3. **Attendance Tracking:**
    - In the home screen, you will find a list of your subjects. Click on each subject to mark your attendance for that particular class.
-   - Use the "Present," "Absent," or "Late" buttons to update your attendance status.
+   - Use the "Present," "Absent," or "Medical leave " buttons to update your attendance status.
 
 4. **Timetable Management:**
    - Click on the "Timetable" button to view your weekly class schedule.
-   - You can edit or delete existing subjects from the timetable as needed.
+   - You clear  the timetable as needed.
 
 5. **Attendance Reports:**
    - Go to the "Reports" section to view detailed attendance reports for each subject.
-   - The reports will show your attendance percentage for each subject and overall attendance performance.
+   - The reports will show your attendance percentage for each subject and overall attendance performance by using pie chart and bar chart.
 
-## Contributing
-
-We welcome contributions to Atracker. If you have any suggestions, feature requests, or bug reports, please feel free to open an issue or submit a pull request. Let's improve Atracker together!
 
 
