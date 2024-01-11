@@ -39,6 +39,6 @@ To use Atracker, you can download and install the Android APK file provided in t
 5. **Attendance Reports:**
    - Go to the "Reports" section to view detailed attendance reports for each subject.
    - The reports will show your attendance percentage for each subject and overall attendance performance by using pie chart and bar chart.
-
+ app-source-main-java-com-example-attendancetraker
 
 
