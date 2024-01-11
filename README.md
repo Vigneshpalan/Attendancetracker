@@ -1,6 +1,9 @@
-# Atracker - Attendance Tracker App
+no# Atracker - Attendance Tracker App
 
 Atracker is an Android App designed to help students track their attendance and manage their class schedules efficiently. The app provides various features to facilitate easy attendance tracking and timetable management for students.
+
+
+**app-source-main-java-com-example-attendancetraker**path to java backend files
 
 ## Features
 
@@ -39,6 +42,5 @@ To use Atracker, you can download and install the Android APK file provided in t
 5. **Attendance Reports:**
    - Go to the "Reports" section to view detailed attendance reports for each subject.
    - The reports will show your attendance percentage for each subject and overall attendance performance by using pie chart and bar chart.
- app-source-main-java-com-example-attendancetraker
-
+ 
 
