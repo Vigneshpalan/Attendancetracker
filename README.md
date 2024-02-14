@@ -16,9 +16,7 @@ Atracker is an Android App designed to help students track their attendance and 
 
 - **Attendance Reports:** Atracker generates comprehensive attendance reports based on the attendance data provided by the user. The reports offer insights into attendance percentages for each subject and overall attendance performance.
 
-## Installation
 
-To use Atracker, you can download and install the Android APK file provided in the releases section of this repository. Ensure that your Android device allows installation from unknown sources before installing the app.
 
 ## Usage
 
