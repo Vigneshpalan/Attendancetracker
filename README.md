@@ -3,7 +3,6 @@
 Atracker is an Android App designed to help students track their attendance and manage their class schedules efficiently. The app provides various features to facilitate easy attendance tracking and timetable management for students.
 
 
-**app-source-main-java-com-example-attendancetraker**path to java backend files
 
 ## Features
 
